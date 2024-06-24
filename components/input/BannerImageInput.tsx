@@ -28,7 +28,7 @@ export default function BannerImageInput({ files, setFiles }: FileInputProps) {
               />
             </div>
             <div
-              className="absolute right-[-10px] top-[-15px] z-1 w-10 h-10 tablet:w-8 tablet:h-8 tablet:top-[-10px] mobile:w-6 mobile:h-6 mobile:right-[-5px] mobile:top-[-5px]"
+              className="absolute right-[-10px] top-[-15px] z-1 w-10 h-10 tablet:w-8 tablet:h-8 tablet:top-[-10px] mobile:w-6 mobile:h-6 mobile:right-[-1px] mobile:top-[-5px]"
               onClick={() => handleDeleteFile(file)}
             >
               <Image
