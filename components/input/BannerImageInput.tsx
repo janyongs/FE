@@ -18,7 +18,7 @@ export default function BannerImageInput({ files, setFiles }: FileInputProps) {
         <ImageInput files={files} setFiles={setFiles} type="banner" />
         {files.map((file) => (
           <div className="relative" key={`${file}_key`}>
-            <div className="w-[180px] h-[180px] rounded-3xl overflow-hidden relative">
+            <div className="w-[180px] h-[180px] rounded-3xl overflow-hidden relative tablet:w-[206px] tablet:h-[206px] mobile:w-[167px] mobile:h-[167px]">
               <Image
                 src={file}
                 fill

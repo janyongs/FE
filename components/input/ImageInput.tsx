@@ -62,7 +62,7 @@ export default function ImageInput({ files, setFiles, type }: ImageInputProps) {
     >
       <button
         type="button"
-        className="w-[180px] h-[180px] rounded-xl border border-dashed border-gray600 flex flex-col gap-[30px] items-center justify-center cursor-pointer"
+        className="w-[180px] h-[180px] tablet:w-[206px] tablet:h-[206px] mobile:w-[167px] mobile:h-[167px] rounded-xl border border-dashed border-gray600 flex flex-col gap-[30px] items-center justify-center cursor-pointer"
         onClick={() => !isDisabled && inputRef.current?.click()}
         disabled={isDisabled}
       >
